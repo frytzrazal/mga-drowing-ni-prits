@@ -4,29 +4,30 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 500;
+  font-weight: 700;
+  font-family: var(--heading-font);
   line-height: 1.25;
   color: var(--heading-color);
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   letter-spacing: -0.02rem;
 }
 
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 p {

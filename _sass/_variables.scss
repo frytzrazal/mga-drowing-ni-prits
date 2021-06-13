@@ -37,6 +37,7 @@
   /*--body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
   --body-font: Fira Sans, sans-serif;
   --body-font-size: 16px;
+  --body-font-size-larger: 18px;
   --body-line-height: 1.5;
   --body-color: var(--brown);
   --body-bg: #fff;
@@ -46,6 +47,7 @@
   --link-hover-color: var(--link-color);
   --pagination-hover-color: var(--lt-brown);
 
+  --heading-font: Cabin, sans-serif;
   --heading-color: var(--brown);
 
   --border-color: var(--lt-brown);

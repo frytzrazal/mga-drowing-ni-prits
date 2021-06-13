@@ -6,10 +6,17 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: var(--body-font-size);
+
+  @media (min-width: 50em) {
+    font-size: var(--body-font-size-larger);
+  }
+}
+
 body {
   margin: 0;
   font-family: var(--body-font);
-  font-size: var(--body-font-size);
   font-weight: 300;
   line-height: var(--body-line-height);
   color: var(--body-color);
