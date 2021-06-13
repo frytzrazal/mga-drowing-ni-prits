@@ -38,7 +38,7 @@
   --body-font: Fira Sans, sans-serif;
   --body-font-size: 16px;
   --body-line-height: 1.5;
-  --body-color: var(--gray-700);
+  --body-color: var(--dk-brown);
   --body-bg: #fff;
   --logo-color: var(--lt-brown);
 
@@ -60,7 +60,7 @@
   --spacer-3: calc(var(--spacer) * 3);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --body-color: var(--lt-gray);
     --body-bg: var(--gray-900);
@@ -76,4 +76,4 @@
 
     --code-bg: var(--gray-900);
   }
-}
+}*/
