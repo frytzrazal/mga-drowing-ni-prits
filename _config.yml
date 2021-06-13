@@ -1,10 +1,11 @@
 # Setup
 title: Mga Drowing Ni Prits
 # tagline: Tagline
-url: https://www.mgadrowingniprits.com
+# url: https://www.mgadrowingniprits.com
 paginate: 1
 # baseurl: ""
 permalink: /:year/:month/:slug
+baseurl: /mga-drowing-ni-prits
 
 # Gems
 plugins:
