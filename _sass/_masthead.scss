@@ -21,3 +21,16 @@
     opacity: .5;
   }
 }
+
+.site-logo {
+  display: block;
+  height: 3rem;
+  margin: 0 auto;
+  /*background: url(../assets/images/logo-text.svg);*/
+  background-color: var(--logo-color);
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+  /*background-position: center center;*/
+  -webkit-mask: url(assets/images/logo-text.svg) no-repeat center center / contain;
+  mask: url(assets/images/logo-text.svg) no-repeat center center / contain;
+}

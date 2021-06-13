@@ -25,7 +25,7 @@
 
 // Only provide a hover state for linked pagination items
 a.pagination-item:hover {
-  background-color: var(--border-color);
+  background-color: var(--pagination-hover-color);
 }
 
 @media (min-width: 30em) {

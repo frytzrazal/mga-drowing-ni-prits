@@ -40,9 +40,11 @@
   --body-line-height: 1.5;
   --body-color: var(--gray-700);
   --body-bg: #fff;
+  --logo-color: var(--lt-brown);
 
   --link-color: var(--red);
   --link-hover-color: var(--link-color);
+  --pagination-hover-color: var(--lt-brown);
 
   --heading-color: var(--gray-900);
 
@@ -62,11 +64,13 @@
   :root {
     --body-color: var(--lt-gray);
     --body-bg: var(--gray-900);
+    --logo-color: var(--gray-800);
 
     --heading-color: #fff;
 
     --link-color: var(--red);
     --link-hover-color: var(--red);
+    --pagination-hover-color: var(--gray-800);
 
     --border-color: rgba(255,255,255,.15);
 
