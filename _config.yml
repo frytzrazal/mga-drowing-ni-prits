@@ -4,7 +4,7 @@ title: Mga Drowing Ni Prits
 # url: https://www.mgadrowingniprits.com
 paginate: 1
 # baseurl: ""
-permalink: /:year/:month/:slug
+permalink: /:slug
 baseurl: /mga-drowing-ni-prits
 
 # Gems
