@@ -26,14 +26,23 @@
   --blue-400: #4dabf7;
   --yellow-100: #fff3bf;
 
-  --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* Custom colors */
+  --dk-brown: #393231;
+  --brown: #4C4341;
+  --lt-brown: #E4DDDC;
+  --red: #DE4C36;
+  --yellow: #FFC636;
+  --lt-gray: #F2F2F2;
+
+  /*--body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+  --body-font: Fira Sans, sans-serif;
   --body-font-size: 16px;
   --body-line-height: 1.5;
   --body-color: var(--gray-700);
   --body-bg: #fff;
 
-  --link-color: var(--blue);
-  --link-hover-color: #1c7ed6;
+  --link-color: var(--red);
+  --link-hover-color: var(--link-color);
 
   --heading-color: var(--gray-900);
 
@@ -51,13 +60,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-color: var(--gray-300);
-    --body-bg: var(--gray-800);
+    --body-color: var(--lt-gray);
+    --body-bg: var(--gray-900);
 
     --heading-color: #fff;
 
-    --link-color: var(--blue-300);
-    --link-hover-color: var(--blue-400);
+    --link-color: var(--red);
+    --link-hover-color: var(--red);
 
     --border-color: rgba(255,255,255,.15);
 
