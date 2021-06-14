@@ -3,9 +3,11 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  padding-top: var(--spacer);
-  padding-bottom: var(--spacer);
-  margin-bottom: var(--spacer-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: var(--spacer-3);
+  padding-bottom: var(--spacer-2);
 }
 
 .masthead-title {
@@ -23,14 +25,6 @@
 }
 
 .site-logo {
-  display: block;
-  height: 2rem;
-  margin: 0 auto;
-  /*background: url(../assets/images/logo-text.svg);*/
-  background-color: var(--logo-color);
-  /*background-repeat: no-repeat;*/
-  /*background-size: contain;*/
-  /*background-position: center center;*/
-  -webkit-mask: url(assets/images/logo-text.svg) no-repeat center center / contain;
-  mask: url(assets/images/logo-text.svg) no-repeat center center / contain;
+  height: 5rem;
+  object-fit: contain;
 }
