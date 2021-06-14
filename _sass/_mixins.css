@@ -1,0 +1,9 @@
+@mixin common-link {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+  }
+}

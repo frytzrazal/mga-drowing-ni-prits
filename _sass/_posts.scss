@@ -60,10 +60,10 @@
   }
 
   a {
-    text-decoration: none;
+    @include common-link;
 
     small {
-      color: var(--gray-600);
+      color: var(--brown2);
     }
   }
 }
@@ -71,13 +71,7 @@
 .post {
   p, li {
     a {
-      text-decoration: none;
-
-      &:hover,
-      &:focus {
-        text-decoration: underline;
-        text-underline-offset: 0.1em;
-      }
+      @include common-link;
     }
   }
 }
