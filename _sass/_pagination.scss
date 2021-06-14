@@ -5,48 +5,48 @@
 
 .pagination {
   display: flex;
-  margin: 0 -1.5rem var(--spacer);
+  justify-content: center;
+  margin: var(--spacer) auto;
+  max-width: 20em;
   color: var(--lt-brown);
-  text-align: center;
+  font-family: var(--heading-font);
+  text-transform: uppercase;
 }
 
 // Pagination items can be `span`s or `a`s
 .pagination-item {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: var(--spacer);
   text-decoration: none;
-  border: solid var(--border-color);
-  border-width: 1px 0;
 
-  &:first-child {
-    margin-bottom: -1px;
+  .icon-back,
+  .icon-forward {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 0.5em;
+    transition: transform .2s;
+    background-color: var(--link-color);
   }
-}
+  .icon-back {
+    -webkit-mask: url(assets/images/arrow_back_ios_black_24dp.svg) no-repeat center center / contain;
+  }
+  .icon-forward {
+    -webkit-mask: url(assets/images/arrow_forward_ios_black_24dp.svg) no-repeat center center / contain;
+  }
 
-// Only provide a hover state for linked pagination items
-a.pagination-item:hover {
-  background-color: var(--pagination-hover-color);
+  &:hover {
+    .icon-back {
+      transform: translateX(-0.5em);
+    }
+    .icon-forward {
+      transform: translateX(0.5em);
+    }
+  }
 }
 
 @media (min-width: 30em) {
   .pagination {
-    margin: var(--spacer-3) 0;
-  }
-
-  .pagination-item {
-    float: left;
-    width: 50%;
-    border-width: 1px;
-
-    &:first-child {
-      margin-bottom: 0;
-      border-top-left-radius: var(--border-radius);
-      border-bottom-left-radius: var(--border-radius);
-    }
-    &:last-child {
-      margin-left: -1px;
-      border-top-right-radius: var(--border-radius);
-      border-bottom-right-radius: var(--border-radius);
-    }
+    margin: var(--spacer-3) auto;
   }
 }
