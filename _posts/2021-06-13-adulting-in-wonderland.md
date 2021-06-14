@@ -3,6 +3,7 @@ layout: post
 title: Adulting in Wonderland
 image: assets/images/content/adulting-in-wonderland.jpg
 description: Minsan sana buhay na lang sila
+comments: true
 ---
 
 Ito officially ang una kong "project" gamit ang pen tablet. Medyo natagalan akong mag-drowing nito dahil kailangan ng praktis sa pagguhit habang nakatingin sa screen. 'Wag malinlang sa post date, last year ko pa to natapos, hindi ko lang kaagad naasikaso. Mas masipag na kasi ako ngayon maghugas ng pinggan kaysa sa mag-drowing haha. Ha.
