@@ -1,0 +1,52 @@
+// Pagination
+//
+// Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+// there are no more previous or next posts to show.
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: var(--spacer) auto;
+  max-width: 20em;
+  color: var(--lt-brown);
+  font-family: var(--heading-font);
+  text-transform: uppercase;
+}
+
+// Pagination items can be `span`s or `a`s
+.pagination-item {
+  display: flex;
+  align-items: center;
+  padding: var(--spacer);
+  text-decoration: none;
+
+  .icon-back,
+  .icon-forward {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 0.5em;
+    transition: transform .2s;
+    background-color: var(--link-color);
+  }
+  .icon-back {
+    -webkit-mask: url(assets/images/arrow_back_ios_black_24dp.svg) no-repeat center center / contain;
+  }
+  .icon-forward {
+    -webkit-mask: url(assets/images/arrow_forward_ios_black_24dp.svg) no-repeat center center / contain;
+  }
+
+  &:hover {
+    .icon-back {
+      transform: translateX(-0.5em);
+    }
+    .icon-forward {
+      transform: translateX(0.5em);
+    }
+  }
+}
+
+@media (min-width: 30em) {
+  .pagination {
+    margin: var(--spacer-3) auto;
+  }
+}

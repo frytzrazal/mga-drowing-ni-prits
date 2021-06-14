@@ -1,0 +1,41 @@
+# Setup
+title: Mga Drowing ni Prits
+# tagline: Tagline
+url: https://www.mgadrowingniprits.com
+description: Ang Mga Drowing ni Prits ay isang illustration blog na tambakan ng mga drowing at kwento ni Prits para sa mga Pinoy na gustong chumill lang online. Stressed ka ba? Dito ka muna!
+paginate: 1
+permalink: /:slug
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: prits
+  url: https://twitter.com/frytzonbreak
+  email: frytzonbreak@gmail.com
+
+# Custom vars
+version: 3.0.0
