@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adulting in Wonderland
-image: assets/images/content/adulting-in-wonderland.jpg
+image: /assets/images/content/adulting-in-wonderland.jpg
 description: Minsan sana buhay na lang sila
 comments: true
 ---
