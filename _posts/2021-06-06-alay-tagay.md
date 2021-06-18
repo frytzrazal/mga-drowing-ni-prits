@@ -6,6 +6,6 @@ description: Huwag kalimutang mag-alay bago tumagay
 comments: true
 ---
 
-Sino nga ba nagpasimuno nito at **bakit walang pulutang inaalay**?
+Sino nga ba nagpasimuno nito at **bakit walang inaalay na pulutan?**
 
 At bakit kelangan guluhin yung demonyo t'wing may inuman? <sub>Inaano ka ba, ha?</sub>
